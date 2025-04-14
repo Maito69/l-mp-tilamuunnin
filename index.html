@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <title>Lämpötilamuunnin</title>
+    <script src="tila.js" defer></script>
+</head>
+<body>
+    <h1>Lämpötilamuunnin</h1>
+
+    <select id="suunta">
+        <option value="CtoF">Celsius -> Fahrenheit</option>
+        <option value="FtoC">Fahrenheit -> Celsius</option>
+    </select><br><br>
+
+    <label>Syötä lämpötila:</label>
+    <input type="text" id="lampotila">
+    <button id="muunna">Muunna</button><br><br>
+
+    <label>Desimaalit:</label><br>
+    <input type="radio" name="desimaali" value="1" checked> 1 desimaali<br>
+    <input type="radio" name="desimaali" value="2"> 2 desimaalia<br>
+    <input type="radio" name="desimaali" value="3"> 3 desimaalia<br><br>
+
+    <p id="tulos"></p>
+</body>
+</html>
